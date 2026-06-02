@@ -1,1 +1,73 @@
-<h1>Creating the Future...</h1>
+<div class="max-w-screen-lg mx-auto px-4 min-h-screen flex flex-col">
+
+    <!-- Шапка -->
+    <header class="flex items-center justify-between py-4">
+        <a href="#" class="flex items-center">
+            <img src="../assets/moysklad-logo.png" class="h-8 w-auto" alt="MoySklad logo" />
+        </a>
+        <button type="button" class="inline-flex items-center gap-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-3.5 py-2">
+            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 8h6m-6 4h6m-6 4h4M5 4h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Z"/>
+            </svg>
+            Add data
+        </button>
+    </header>
+
+    <!-- Табличка -->
+    <main class="relative overflow-x-auto flex-1">
+        <table class="w-full text-sm text-left text-gray-500">
+            <thead class="text-xs text-gray-700 uppercase bg-gray-50">
+                <tr>
+                    <th scope="col" class="px-6 py-3">Transaction</th>
+                    <th scope="col" class="px-6 py-3">Date &amp; Time</th>
+                    <th scope="col" class="px-6 py-3">Amount</th>
+                    <th scope="col" class="px-6 py-3">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-white border-b">
+                    <th scope="row" class="px-6 py-4 font-normal text-gray-900 whitespace-nowrap">Payment from <span class="font-semibold">Bonnie Green</span></th>
+                    <td class="px-6 py-4">Apr 23, 2021</td>
+                    <td class="px-6 py-4 font-semibold text-gray-900">$2300</td>
+                    <td class="px-6 py-4"><span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">Completed</span></td>
+                </tr>
+                <tr class="bg-white border-b">
+                    <th scope="row" class="px-6 py-4 font-normal text-gray-900 whitespace-nowrap">Payment refund to <span class="font-semibold">#00910</span></th>
+                    <td class="px-6 py-4">Apr 23, 2021</td>
+                    <td class="px-6 py-4 font-semibold text-gray-900">-$670</td>
+                    <td class="px-6 py-4"><span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">Completed</span></td>
+                </tr>
+                <tr class="bg-white border-b">
+                    <th scope="row" class="px-6 py-4 font-normal text-gray-900 whitespace-nowrap">Payment failed from <span class="font-semibold">#087651</span></th>
+                    <td class="px-6 py-4">Apr 18, 2021</td>
+                    <td class="px-6 py-4 font-semibold text-gray-900">$234</td>
+                    <td class="px-6 py-4"><span class="bg-red-100 text-red-800 text-xs font-medium px-2.5 py-0.5 rounded">Cancelled</span></td>
+                </tr>
+                <tr class="bg-white border-b">
+                    <th scope="row" class="px-6 py-4 font-normal text-gray-900 whitespace-nowrap">Payment from <span class="font-semibold">Lara Byrd</span></th>
+                    <td class="px-6 py-4">Apr 15, 2021</td>
+                    <td class="px-6 py-4 font-semibold text-gray-900">$5000</td>
+                    <td class="px-6 py-4"><span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">In progress</span></td>
+                </tr>
+                <tr class="bg-white border-b">
+                    <th scope="row" class="px-6 py-4 font-normal text-gray-900 whitespace-nowrap">Payment from <span class="font-semibold">Jese Leos</span></th>
+                    <td class="px-6 py-4">Apr 15, 2021</td>
+                    <td class="px-6 py-4 font-semibold text-gray-900">$2300</td>
+                    <td class="px-6 py-4"><span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">Completed</span></td>
+                </tr>
+                <tr class="bg-white border-b">
+                    <th scope="row" class="px-6 py-4 font-normal text-gray-900 whitespace-nowrap">Payment from <span class="font-semibold">THEMSBERG LLC</span></th>
+                    <td class="px-6 py-4">Apr 11, 2021</td>
+                    <td class="px-6 py-4 font-semibold text-gray-900">$560</td>
+                    <td class="px-6 py-4"><span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">Completed</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="flex items-center justify-center p-4 mt-6 bg-white rounded-lg shadow">
+        <span class="text-sm text-gray-500">© 2007-2024 ООО "Логнекс"</span>
+    </footer>
+
+</div>
